@@ -1,0 +1,41 @@
+<p-card
+  header="{{ 'name:' + detail.name }}"
+  [style]="{ width: '40rem', 'margin-bottom': '2em' }"
+>
+  <ng-template pTemplate="header">
+    <p>location_area_encounters: {{ detail.location_area_encounters }}</p>
+  </ng-template>
+  <div class="row">
+    <div class="col-md-6">height: {{ detail.height }}</div>
+    <div class="col-md-6">weight: {{ detail.weight }}</div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">order: {{ detail.order }}</div>
+    <div class="col-md-6">
+      detail.base_experience: {{ detail.base_experience }}
+    </div>
+  </div>
+  <div class="ability">
+    <p><strong> Abilities :</strong></p>
+    <br />
+    <p *ngFor="let pokedetail of detail.abilities">
+      {{ pokedetail.ability.name }}
+    </p>
+  </div>
+  <div class="game_indices">
+    <p><strong> game_indices :</strong></p>
+    <br />
+    <p *ngFor="let pokedetail of detail.game_indices">
+      {{ pokedetail.game_index }}
+      <!-- {{ pokedetail.version }} -->
+      <!-- <li *ngFor="let version of pokedetail.version">{{ version.url }}</li> -->
+    </p>
+  </div>
+  <div class="ability">
+    <p><strong> Abilities :</strong></p>
+    <br />
+    <p *ngFor="let pokedetail of detail.abilities">
+      {{ pokedetail.ability.name }}
+    </p>
+  </div>
+</p-card>

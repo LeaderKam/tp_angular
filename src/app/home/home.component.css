@@ -1,0 +1,19 @@
+/* :root {
+  --main-bg-color: #46b3f1;
+  --light-brown: #5f6162;
+  --dark-grey: #000FF;
+}
+
+*/
+.search{
+background-color: bisque;
+border-radius: 5px;
+}
+.detail{
+  /* background-color: antiquewhite; */
+  /* border-radius: 5px; */
+  /* margin-right: 10px; */
+}
+.ability{
+  margin-top:40px;
+}
