@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
+### ng g c nomComposant: création de composant
+### ng g pipe nomPipe: création de pipe
+création d'interface pour l'utilisation de l'api(reconnaissance de type)
+
+Pour ce tp nous avons eu à travailler sur la création de composant. nous avons vu aussi comment utiliser les observables pour rendre 
+accessible une variable ou donné à tous les composant pour faciliter l'échange de donnée entre les composants pere et fils.
+Nous avons aussi vu les differents type de databiding
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
